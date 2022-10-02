@@ -70,13 +70,14 @@
   }
 }
 
-head {
-  background: linear-gradient(111.1deg, rgb(0, 40, 70) -4.8%, rgb(255, 115, 115) 82.7%, rgb(255, 175, 123) 97.2%);
+body {
+  background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
 }
 
-body {
-  background: linear-gradient(111.1deg, rgb(0, 40, 70) -4.8%, rgb(255, 115, 115) 82.7%, rgb(255, 175, 123) 97.2%);
-}
+/*
+
+*/
+
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
@@ -156,7 +157,7 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: #FFFFF0;
   margin-bottom: 25px;
 }
 
@@ -203,7 +204,7 @@ img {
 
 .nav__logo,
 .nav__toggle {
-  color: var(--title-color);
+  color: white;
   font-weight: var(--font-medium);
 }
 
@@ -245,7 +246,7 @@ img {
   flex-direction: column;
   align-items: center;
   font-size: var(--small-font-size);
-  color: var(--title-color);
+  color: #E9DCC9;
   font-weight: var(--font-medium);
 }
 
@@ -328,17 +329,19 @@ img {
 
 .home__title {
   font-size: var(--big-font-size);
+  color: #FFFFF0;
 }
 
 .home__subtitle {
   font-size: var(--h3-font-size);
-  color: var(--text-color);
+  color: #E9DCC9;
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-75);
 }
 
 .home__description {
   margin-bottom: var(--mb-2);
+  color: #FAF9F6;
 }
 
 .home__scroll {
@@ -442,7 +445,7 @@ img {
 .about__info-title {
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
-  color: var(--title-color);
+  color: #E9DCC9;
 }
 
 .about__info-name {
@@ -453,6 +456,7 @@ img {
 .about__info-name {
   display: block;
   text-align: center;
+  color: #FAF9F6;
 }
 
 .about__buttons {
@@ -517,6 +521,7 @@ img {
 .skills__percentage {
   height: 5px;
   border-radius: .25rem;
+  color: #E9DCC9;
 }
 
 .skills__bar {
@@ -597,6 +602,7 @@ img {
 .qualification__button {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
+  color: #FFFFF0;
   cursor: pointer;
 }
 
@@ -618,17 +624,19 @@ img {
 .qualification__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+  color: #E9DCC9;
 }
 
 .qualification__subtitle {
   display: inline-block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-1);
+  color: #FAF9F6
 }
 
 .qualification__calendar {
   font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
+  color: #FFF5EE;
 }
 
 .qualification__rounder {
@@ -780,10 +788,12 @@ img {
 .portfolio__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
+  color: #E9DCC9;
 }
 
 .portfolio__description {
   margin-bottom: var(--mb-0-75);
+  color: #FAF9F6;
 }
 
 .portfolio__button:hover .button__icon {
@@ -910,6 +920,7 @@ img {
 .contact__title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
+  color: #E9DCC9;
 }
 
 .contact__subtitle {
@@ -949,7 +960,7 @@ img {
 }
 
 .footer__bg {
-  background-color: var(--first-color-second);
+  background-color: black;
   padding: 2rem 0 3rem;
 }
 
@@ -987,6 +998,8 @@ img {
   color: var(--text-color-light);
   margin-top: var(--mb-3);
 }
+
+
 
 .footer__title,
 .footer__subtitle,
@@ -1393,6 +1406,7 @@ img {
 .skills__names {
   display: flex;
   align-items: center;
+  color: #FAF9F6;
 }
 
 .skills__bar {
